@@ -21,6 +21,6 @@ public class EmailCommandBuilder extends EmailCommand {
     }
 
     public String send(){
-        return getTo()+"'dan gelen mesaj :"+ getSubject();
+        return to+"'dan gelen mesaj :"+ subject;
     }
 }
